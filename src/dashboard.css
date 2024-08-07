@@ -1,0 +1,99 @@
+
+/* Top Navbar section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #4c4b4b;
+}
+
+.Logo, .menu {
+    display: flex;
+    align-items: center;
+}
+
+.Logo ul, .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Logo ul li, .menu ul li {
+    margin: 5px 10px;
+}
+
+.search-container {
+    position: relative;
+    width: 200px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 5px 10px 5px 30px;
+    font-size: 14px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+}
+
+.menu img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.menu li, .Logo li {
+    color: white;
+}
+
+
+
+/* Side navbar */
+
+.sidebar {
+    height: 816px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.topSidebar {
+    flex-grow: 1;
+}
+
+.bottomSidebar {
+    margin-bottom: 10px;
+}
+
+.nav-item {
+    margin: 10px 0;
+}
+
+.nav-item, .bottomSidebar li {
+    color: white;
+    text-align: start;
+}
+
+#totalCard{
+    height: 30px;
+    width: 30px;
+}
+
+.review img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
